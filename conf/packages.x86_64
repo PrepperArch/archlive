@@ -1,0 +1,9 @@
+base
+linux
+mkinitcpio
+mkinitcpio-archiso
+syslinux
+
+apocos-desktop
+apocos-hack
+apocos-sdr
