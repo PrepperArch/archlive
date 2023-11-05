@@ -3,7 +3,8 @@ linux
 mkinitcpio
 mkinitcpio-archiso
 syslinux
+archlinux-keyring
 
-apocos-desktop
+apocos-awesome
 apocos-hack
 apocos-sdr
