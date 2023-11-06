@@ -4,6 +4,7 @@ mkinitcpio
 mkinitcpio-archiso
 syslinux
 archlinux-keyring
+archinstall
 
 apocos-awesome
 apocos-hack
