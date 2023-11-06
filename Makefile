@@ -17,8 +17,14 @@ build:
 	cat /usr/share/archiso/configs/baseline/pacman.conf - <<- EOF > build/apocos/pacman.conf
 	[apocos]
 	SigLevel = Optional TrustAll
-	Server = https://raw.github.com/PrepperArch/apocos-repo/main/any
+	Include = /etc/pacman.d/apocos.mirrorlist
+	[archstrike]
+	Include = /etc/pacman.d/archstrike.mirrorlist
 	EOF
+	install -Dm0644 conf/mirrorlist build/apocos/airootfs/etc/pacman.d/mirrorlist
+	install -Dm0644 conf/apocos.mirrorlist build/apocos/airootfs/etc/pacman.d/apocos.mirrorlist
+	install -Dm0644 conf/archstrike.mirrorlist build/apocos/airootfs/etc/pacman.d/archstrike.mirrorlist
+
 	cp conf/packages.x86_64 build/apocos/packages.x86_64
 
 image: clean-workdir | build

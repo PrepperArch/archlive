@@ -1,0 +1,4 @@
+#
+# Apocos mirrorlist
+#
+Server = https://raw.github.com/PrepperArch/apocos-repo/main/any
