@@ -18,4 +18,6 @@ airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' 
 file_permissions=(
   ["/etc/shadow"]="0:0:400"
   ["/etc/gshadow"]="0:0:400"
+  ["/etc/systemd/system/firstboot.service"]="0:0:644"
+  ["/usr/local/bin/firstboot.sh"]="0:0:755"
 )

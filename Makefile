@@ -6,6 +6,14 @@ build:
 	mkdir -p build/apocos
 	cp -r /usr/share/archiso/configs/baseline/* build/apocos
 	cp conf/profiledef-x86_64.sh build/apocos/profiledef.sh
+
+	mkdir -p build/apocos/airootfs/usr/local/bin
+	install -Dm0755 conf/firstboot.sh  build/apocos/airootfs/usr/local/bin
+	mkdir -p build/apocos/airootfs/etc/systemd/system
+	install -Dm0644 conf/firstboot.service build/apocos/airootfs/etc/systemd/system
+	mkdir -p build/apocos/airootfs/etc/systemd/system/multi-user.target.wants
+	ln -s /etc/systemd/system/firstboot.service build/apocos/airootfs/etc/systemd/system/multi-user.target.wants/firstboot.service
+
 	cat /usr/share/archiso/configs/baseline/pacman.conf - <<- EOF > build/apocos/pacman.conf
 	[apocos]
 	SigLevel = Optional TrustAll
