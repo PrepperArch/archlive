@@ -24,6 +24,7 @@ build:
 	install -Dm0644 conf/mirrorlist build/apocos/airootfs/etc/pacman.d/mirrorlist
 	install -Dm0644 conf/apocos.mirrorlist build/apocos/airootfs/etc/pacman.d/apocos.mirrorlist
 	install -Dm0644 conf/archstrike.mirrorlist build/apocos/airootfs/etc/pacman.d/archstrike.mirrorlist
+	install -Dm0644 build/apocos/pacman.conf build/apocos/airootfs/etc/pacman.conf
 
 	cp conf/packages.x86_64 build/apocos/packages.x86_64
 
