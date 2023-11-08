@@ -3,22 +3,9 @@
 ## Generated on 2023-11-06
 ##
 
-Server = https://mirror.archstrike.org/$arch/$repo # Canada (official)
-Server = http://mirror.keystealth.org/archstrike/$arch/$repo # United States (community)
-Server = http://mirror.i3d.net/pub/archstrike/$arch/$repo # Netherlands (community)
-Server = http://www.mirrorservice.org/sites/mirror.archstrike.org/$arch/$repo # United Kingdom (community)
-Server = https://www.mirrorservice.org/sites/mirror.archstrike.org/$arch/$repo # United Kingdom (community)
-Server = https://mirror.umd.edu/archstrike/$arch/$repo # United States (community)
-Server = http://mirrors.dotsrc.org/archstrike/$arch/$repo # Denmark (community)
-Server = http://mirror.layerjet.com/archstrike/$arch/$repo # France (community)
-Server = http://ftp.acc.umu.se/mirror/archstrike.org/$arch/$repo # Sweden (community)
-Server = https://ftp.acc.umu.se/mirror/archstrike.org/$arch/$repo # Sweden (community)
-Server = https://ftp.yzu.edu.tw/Linux/archstrike/$arch/$repo #  (community)
-Server = http://mirror.team-cymru.com/archstrike/$arch/$repo # United States (community)
-Server = https://mirror.aarnet.edu.au/pub/archstrike/archstrike/$arch/$repo # Australia (community)
-Server = http://mirror.stro.nz/archstrike/$arch/$repo # United States (community)
-Server = https://mirror.cedia.org.ec/archstrike/$arch/$repo # Ecuador (community)
-Server = https://mirror.uce.edu.ec/archstrike/$arch/$repo # Ecuador (community)
-Server = https://mirror.epn.edu.ec/archstrike/$arch/$repo # Ecuador (community)
-Server = http://archstrike.outerworld.org/$arch/$repo # United States (community)
-Server = https://archstrike.unixpeople.org/$arch/$repo # Germany (community)
+Server = https://mirror.archstrike.org/$arch/$repo
+Server = https://ftp.acc.umu.se/mirror/archstrike.org/$arch/$repo
+Server = https://ftp.yzu.edu.tw/Linux/archstrike/$arch/$repo
+Server = http://mirror.team-cymru.com/archstrike/$arch/$repo
+Server = https://mirror.aarnet.edu.au/pub/archstrike/archstrike/$arch/$repo
+
