@@ -1,4 +1,6 @@
-#
-# Apocos mirrorlist
-#
+##
+## Apocalypse OS - mirrorlist
+##
+
+Server = https://prepperarch.github.io/apocos-repo/any
 Server = https://prepperarch.github.io/apocos-repo/$arch
